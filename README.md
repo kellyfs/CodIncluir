@@ -20,3 +20,19 @@ Object[] row = new Object[5];
                 row[3] = cli.getDataNascimento();
                 row[4] = cli.getGenero();
                 model.addRow(row);
+
+---------------------------------------------------------------------------------------
+Finalizar venda DATA(incompleto):
+
+try{
+        MaskFormatter formato = new MaskFormatter("##/##/####");
+        JFormattedTextField.setFormatterFactory(new DefaultFormatterFactory(formato));
+        } catch(Exception e){
+            
+        }
+        
+        
+        SimpleDateFormat data = new SimpleDateFormat("dd/MM/yyy");
+        Date hoje = new Date();
+        jFormattedTextFieldData
+        
